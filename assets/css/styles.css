@@ -1,5 +1,22 @@
+:root {
+  font-family: "Didact Gothic", sans-serif;
+  --logo-black: #000000;
+  --black-rgb: 20, 20, 20;
+  --logo-yellow: #ffe81f;
+  --vader-darkgrey: #242424;
+  --vader-grey: #dfdfdf;
+  --lightsaber-red: #6b0f15;
+  --vader-red: #ff0000;
+  --vader-purple-grey: #2d2b3c;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
+  background-color: #000000;
 }
 
 /* nav bar style */
@@ -7,10 +24,33 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  margin: 1.6rem;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: var(--logo-yellow);
+}
+
+.nav-link a:hover {
+  color: var(--vader-grey);
 }
 
 @media screen and (max-width: 596px) {
-  .nav-container {
+  .nav-container,
+  .nav-links-container {
     flex-direction: column;
     align-items: center;
   }
