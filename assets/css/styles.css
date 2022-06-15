@@ -48,6 +48,11 @@ body {
   color: var(--vader-grey);
 }
 
+#vader-icon {
+  width: 6.9rem;
+  height: 6.9rem;
+}
+
 @media screen and (max-width: 596px) {
   .nav-container,
   .nav-links-container {
