@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- header that contains a nar bar -->
-    <header>
+    <header class="header">
       <!-- flex container -->
       <nav class="nav-container">
         <!-- nav links div flex container -->
@@ -41,20 +41,159 @@
             <a href="#">My List</a>
           </div>
         </div>
-        <div>Logo</div>
+        <!-- logo div -->
+        <div class="nav-link">
+          <a href="#"
+            ><img
+              src="https://i.pinimg.com/originals/dc/e6/d8/dce6d8e7da8d432a6286de27b2d91d5b.jpg"
+              alt="vader icon"
+              id="vader-icon"
+          /></a>
+        </div>
       </nav>
     </header>
 
     <!-- div for the banner -->
-    <div>Banner</div>
+    <div class="banner">
+      <h1 class="title">Star Wars Fan Site</h1>
+      <div class="banner-link">
+        <a href="#" class="btn">Explore Now</a>
+      </div>
+    </div>
 
     <!-- main content -->
     <main>
       <!-- section of top 5 movies-->
-      <section>Top 5</section>
+      <section>
+        <h2 class="sub-title">Top 6</h2>
+
+        <!-- flex container for movies -->
+        <div class="movies-container">
+          <!-- movie card 1 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/a-new-hope-1977.webp"
+              alt="a-new-hope-1977"
+              class="movie-img"
+            />
+            <div class="movie-year">1977</div>
+            <div class="movie-info">
+              <h3>A New Hope</h3>
+            </div>
+          </div>
+
+          <!-- movie card 2 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/the-empire-strikes-back-1980.jpg"
+              alt="the-empire-strikes-back-1980"
+              class="movie-img"
+            />
+            <div class="movie-year">1980</div>
+            <div class="movie-info">
+              <h3>The Empire Strikes Back</h3>
+            </div>
+          </div>
+
+          <!-- movie card 3 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/return-of-the-jedi-1983.jpeg"
+              alt="return-of-the-jedi-1983"
+              class="movie-img"
+            />
+            <div class="movie-year">1983</div>
+            <div class="movie-info">
+              <h3>Return of the Jedi</h3>
+            </div>
+          </div>
+
+          <!-- movie card 4 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/the-phantom-menace-1999.jpeg"
+              alt="the-phantom-menace-1999"
+              class="movie-img"
+            />
+            <div class="movie-year">1999</div>
+            <div class="movie-info">
+              <h3>The Phantom Menace</h3>
+            </div>
+          </div>
+
+          <!-- movie card 5 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/attack-of-the-clone-2002.jpeg"
+              alt="attack-of-the-clone-2002"
+              class="movie-img"
+            />
+            <div class="movie-year">2002</div>
+            <div class="movie-info">
+              <h3>Attack of the Clone</h3>
+            </div>
+          </div>
+          <!-- movie card 6  -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/revenge-of-the-sith-2005.jpg"
+              alt="revenge-of-the-sith-2005"
+              class="movie-img"
+            />
+            <div class="movie-year">2005</div>
+            <div class="movie-info">
+              <h3>Revenge of the Sith</h3>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- section for remaining movies and tv series-->
-      <section>Popular movies and series</section>
+      <section>
+        <h2 class="sub-title">Popular movies and series</h2>
+
+        <!-- flex container -->
+        <div class="movies-container">
+          <!-- card 1 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/the-clone-wars-2008.jpeg"
+              alt="the-clone-wars"
+              class="movie-img"
+            />
+            <div class="movie-year">2008</div>
+            <div class="movie-info">
+              <h3>The Clone Wars</h3>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/the-mandalorian-2019.jpeg"
+              alt="the-mandalorian"
+              class="movie-img"
+            />
+            <div class="movie-year">2019</div>
+            <div class="movie-info">
+              <h3>The Mandalorian</h3>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="movie-card">
+            <img
+              src="./assets/img/rouge-one-2016.jpg"
+              alt="rouge-one-2016"
+              class="movie-img"
+            />
+            <div class="movie-year">2016</div>
+            <div class="movie-info">
+              <h3>Rouge One</h3>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
