@@ -33,10 +33,7 @@ body {
   width: 100%;
   height: 6.8rem;
   background-color: var(--logo-black);
-<<<<<<< HEAD
   z-index: 10;
-=======
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
 }
 
 .main {
@@ -82,11 +79,7 @@ body {
       rgba(20, 20, 20, 0.7),
       rgb(205, 220, 88, 0.2)
     ),
-<<<<<<< HEAD
     url(https://bombadradio.files.wordpress.com/2017/02/star-wars-saga-wallpaper.jpg);
-=======
-    url(https://www.sallyannmelia.com/wp-content/uploads/2014/12/The-Bioscope-STAR-WARS-BANNER-for-site-1024x281.jpg);
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,11 +87,7 @@ body {
 }
 
 .banner:hover {
-<<<<<<< HEAD
   background-image: url(https://bombadradio.files.wordpress.com/2017/02/star-wars-saga-wallpaper.jpg);
-=======
-  background-image: url(https://www.sallyannmelia.com/wp-content/uploads/2014/12/The-Bioscope-STAR-WARS-BANNER-for-site-1024x281.jpg);
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
 }
 
 .title {
@@ -134,7 +123,6 @@ body {
 }
 
 .btn:hover {
-<<<<<<< HEAD
   color: var(--vader-darkgrey);
   background-color: var(--vader-red);
 }
@@ -206,14 +194,6 @@ body {
 #vader-icon {
   width: 3.8rem;
   height: 3.8rem;
-=======
-  background-color: var(--vader-red);
-}
-
-#vader-icon {
-  width: 6.9rem;
-  height: 6.9rem;
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
 }
 
 @media screen and (max-width: 596px) {
@@ -227,12 +207,10 @@ body {
     position: static;
     height: 100%;
   }
-<<<<<<< HEAD
+
   .movie-card {
     width: 80vw;
   }
-=======
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
 }
 
 @keyframes moveFromTopWithBounce {
@@ -245,7 +223,6 @@ body {
   100% {
     top: 40%;
   }
-<<<<<<< HEAD
 }
 
 @keyframes fadeOut {
@@ -267,6 +244,4 @@ body {
   100% {
     transform: scale(1.1);
   }
-=======
->>>>>>> 0629d2a4495922d2a18f1038391bbbbd330998fd
 }
