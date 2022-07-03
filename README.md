@@ -1,6 +1,12 @@
-# Star Wars Fan Site
+<h1 align="center">🌟 Star Wars Fan Site 🌟</h1>
 
-## This is the repository for the fan site.
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/angelawong3/starwars-fansite" />
+    <img src="https://img.shields.io/github/languages/count/angelawong3/starwars-fansite" />
+    <img src="https://img.shields.io/github/languages/top/angelawong3/starwars-fansite" />
+    <img src="https://img.shields.io/github/last-commit/angelawong3/starwars-fansite" />
+    <a href="https://github.com/angelawong3"><img src="https://img.shields.io/github/followers/angelawong3?style=social" target="_blank" /></a>
+</p>
 
 ### Overview
 
