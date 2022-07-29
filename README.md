@@ -14,6 +14,11 @@
 An advanced css website.
 ```
 
+### Screenshot
+
+![UI](./assets/img/UI.png)
+User Interface
+
 ### Technologies used
 
 1. HTML
